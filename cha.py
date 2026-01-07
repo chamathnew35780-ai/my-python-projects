@@ -6,7 +6,7 @@ while True:
     if keyboard.is_pressed('up'):
         print(f"\rCommand : Move Up          ", end="")
         while keyboard.is_pressed('up'):
-            pass  # wait until the key is released to avoid multiple prints
+            pass  
     elif keyboard.is_pressed('down'):
         print(f"\rCommand : Move Down          ", end="")
 
